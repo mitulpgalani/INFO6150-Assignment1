@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro-section, section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+#join input[type="text"],#join input[type="number"],
+#join input[type="email"] {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#join input[type="submit"] {
+    background-color: #333; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.profile-img, .section-img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+/* .contact-section {
+    display: inline;
+    
+} */
+
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #005f73;
+    color: #fff;
+    margin-top: 20px;
+}
